@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+
+       <link rel="stylesheet" href="styles.css" class="css">
+        
+    </head>
+    <body>
+        
+        <div id="links">
+            <button type="button"><a href="index.html">Search</a></button>
+            <button type="button"><a href="imageSearch.html">Images</a></button>
+            <button type="button"><a href="advancedSearch.html">Advanced</a></button>
+        </div>
+
+        <h1 class="adv-heading">Advanced Search</h1>
+        <hr>
+        <h2 class="adv-heading" id="subheading">Find pages with...</h3>
+
+        <div id="">
+            <form action="https://google.com/search">
+                <div id="filter">
+                    <label id="specific">all of these words:</label>
+                    <input class="param" type="text" name="as_q" >
+                </div>
+                <br>
+                <div id="filter">
+                    <label id="specific">this exact word of phrase:</label>
+                    <input class="param" type="text" name="as_epq" >
+                </div>
+                <br>
+                <div id="filter">
+                    <label id="specific">any of these words:</label>
+                    <input class="param" type="text" name="as_oq" >
+                </div>
+                <br>
+                <div id="filter">
+                    <label id="specific">none of these words:</label>
+                    <input class="param" type="text" name="as_eq" >
+                </div>
+                <br>
+                <input type="submit" value="Advanced Search" class="adv-search-button">
+            </form>
+        </div>
+                
+    </body>
+</html>
